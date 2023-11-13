@@ -56,7 +56,7 @@ VALUES (
     {
       "detailTransaksi": [
         {
-          "value": "<font color=\"#F4000000\" size=\"14\" type=\"autosize\" weight=\"normal\"> ${toAccountAlias}</font><br><font color=\"#9E000000\" size=\"14\" type=\"autosize\" weight=\"normal\">${toAccountNumber}</font>",
+          "value": "<font color=\"#F4000000\" size=\"14\" type=\"autosize\" weight=\"normal\"> ${fromAccountAliasBgh}</font><br><font color=\"#9E000000\" size=\"14\" type=\"autosize\" weight=\"normal\">${fromAccountNumberBgh}</font>",
           "key": "Rekening Sumber",
           "type": "data",
           "background": "#00FFFFFF"
@@ -89,7 +89,7 @@ VALUES (
     },
     { "value": "", "key": "", "type": "line" },
     {
-      "value": "<font color=\"#F4000000\" size=\"14\" type=\"autosize\" weight=\"normal\"> ${toAccountAlias}</font><br><font color=\"#9E000000\" size=\"14\" type=\"autosize\" weight=\"normal\">${toAccountNumber}</font>",
+      "value": "<font color=\"#F4000000\" size=\"14\" type=\"autosize\" weight=\"normal\"> ${fromAccountAliasBgh}</font><br><font color=\"#9E000000\" size=\"14\" type=\"autosize\" weight=\"normal\">${fromAccountNumberBgh}</font>",
       "key": "Rekening Sumber",
       "type": "data",
       "background": "#00FFFFFF"

@@ -1,5 +1,4 @@
 INSERT INTO PARAMETER_MANAGEMENT_SERVICE.CONTENT_PARAMETER (
-        ID,
         CREATED_BY,
         CREATED_DATE,
         DESCRIPTION,
@@ -18,7 +17,6 @@ INSERT INTO PARAMETER_MANAGEMENT_SERVICE.CONTENT_PARAMETER (
         IS_DELETED
     )
 VALUES (
-        2623,
         'SYSTEM',
         TIMESTAMP '2023-10-11 15:42:00',
         'Template Receipt Beli Emas Rutin Bagi Hasil Failed',
@@ -58,7 +56,7 @@ VALUES (
     {
       "detailTransaksi": [
         {
-          "value": "<font color=\"#F4000000\" size=\"14\" type=\"autosize\" weight=\"normal\"> ${toAccountAlias}</font><br><font color=\"#9E000000\" size=\"14\" type=\"autosize\" weight=\"normal\">${toAccountNumber}</font>",
+          "value": "<font color=\"#F4000000\" size=\"14\" type=\"autosize\" weight=\"normal\"> ${fromAccountAliasBgh}</font><br><font color=\"#9E000000\" size=\"14\" type=\"autosize\" weight=\"normal\">${fromAccountNumberBgh}</font>",
           "key": "Rekening Sumber",
           "type": "data",
           "background": "#00FFFFFF"
@@ -91,7 +89,7 @@ VALUES (
     },
     { "value": "", "key": "", "type": "line" },
     {
-      "value": "<font color=\"#F4000000\" size=\"14\" type=\"autosize\" weight=\"normal\"> ${toAccountAlias}</font><br><font color=\"#9E000000\" size=\"14\" type=\"autosize\" weight=\"normal\">${toAccountNumber}</font>",
+      "value": "<font color=\"#F4000000\" size=\"14\" type=\"autosize\" weight=\"normal\"> ${fromAccountAliasBgh}</font><br><font color=\"#9E000000\" size=\"14\" type=\"autosize\" weight=\"normal\">${fromAccountNumberBgh}</font>",
       "key": "Rekening Sumber",
       "type": "data",
       "background": "#00FFFFFF"
