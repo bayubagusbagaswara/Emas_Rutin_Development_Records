@@ -1,0 +1,26 @@
+[
+  {
+    "bankCardToken": null,
+    "nama": "RIFQI T",
+    "additionalInfo": {
+      "channel": "SUPERAPP",
+      "deviceId": "dmUw9MufwkVlhbpV95bwx-"
+    },
+    "noRekeningDebit": ["7000000166210601"],
+    "channel": "MBG",
+    "partnerReferenceNo": "2311101238015568",
+    "noRekeningEmas": "8833019595"
+  },
+  {
+    "bankCardToken": null,
+    "nama": "RIFQI T",
+    "additionalInfo": {
+      "channel": "SUPERAPP",
+      "deviceId": "dmUw9MufwkVlhbpV95bwx-"
+    },
+    "noRekeningDebit": ["7009299507"],
+    "channel": "MBG",
+    "partnerReferenceNo": "2311101251015583",
+    "noRekeningEmas": "8833019595"
+  }
+]
