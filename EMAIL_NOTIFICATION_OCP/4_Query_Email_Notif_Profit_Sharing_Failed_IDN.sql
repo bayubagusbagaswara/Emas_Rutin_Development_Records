@@ -1,5 +1,32 @@
-INSERT INTO NOTIFICATION_MANAGEMENT_SERVICE.NOTIFICATION_TEMPLATE (ID,CREATED_BY,CREATED_DATE,"LANGUAGE",MESSAGE_SENDER,MESSAGE_SUBJECT,MODIFIED_BY,MODIFIED_DATE,TEMPLATE_CODE,TEMPLATE_TYPE,MESSAGE_CONTENT,ICON,MESSAGE_TITLE,ACTION_INFO,ACTION_LINK,ADDITIONAL_INFO) VALUES
-	 (183,'SYSTEM',NULL,'IDN','Bank Syariah Indonesia<development.bsi@ist.id>','Pengajuan Beli Emas Rutin Gagal',NULL,NULL,'REGISTER_BELI_EMAS_RUTIN_BAGIHASIL_FAILED','EMAIL',TO_CLOB('<!DOCTYPE html>
+INSERT INTO NOTIFICATION_MANAGEMENT_SERVICE.NOTIFICATION_TEMPLATE (
+    CREATED_BY,
+    CREATED_DATE,
+    "LANGUAGE",
+    MESSAGE_SENDER,
+    MESSAGE_SUBJECT,
+    MODIFIED_BY,
+    MODIFIED_DATE,
+    TEMPLATE_CODE,
+    TEMPLATE_TYPE,
+    MESSAGE_CONTENT,
+    ICON,
+    MESSAGE_TITLE,
+    ACTION_INFO,
+    ACTION_LINK,
+    ADDITIONAL_INFO
+  )
+VALUES (
+    'SYSTEM',
+    TIMESTAMP '2023-11-13 09:00:00',
+    'IDN',
+    'Bank Syariah Indonesia<development.bsi@ist.id>',
+    'Pengajuan Beli Emas Rutin Gagal',
+    NULL,
+    NULL,
+    'REGISTER_BELI_EMAS_RUTIN_BAGIHASIL_FAILED',
+    'EMAIL',
+    TO_CLOB(
+      '<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -75,7 +102,9 @@ INSERT INTO NOTIFICATION_MANAGEMENT_SERVICE.NOTIFICATION_TEMPLATE (ID,CREATED_BY
         color: inherit !important;
         text-decoration: none !important;
         font-size: inherit !important;
-        font-fam')||TO_CLOB('ily: inherit !important;
+        font-fam'
+    ) || TO_CLOB(
+      'ily: inherit !important;
         font-weight: inherit !important;
         line-height: inherit !important;
       }
@@ -161,7 +190,9 @@ INSERT INTO NOTIFICATION_MANAGEMENT_SERVICE.NOTIFICATION_TEMPLATE (ID,CREATED_BY
         background: rgba(255, 255, 255, 0.2);
       }
 
-      .')||TO_CLOB('fa-instagram {
+      .'
+    ) || TO_CLOB(
+      'fa-instagram {
         background: rgba(255, 255, 255, 0.2);
       }
 
@@ -244,7 +275,9 @@ INSERT INTO NOTIFICATION_MANAGEMENT_SERVICE.NOTIFICATION_TEMPLATE (ID,CREATED_BY
               >
                 <img
                   src="https://storage.googleapis.com/bsisuperapp2.bankbsi.co.id/assets/email/logo.png"
-                  widt')||TO_CLOB('h="111px"
+                  widt'
+    ) || TO_CLOB(
+      'h="111px"
                   height="32px"
                   alt="Bsi logo"
                 />
@@ -303,7 +336,9 @@ INSERT INTO NOTIFICATION_MANAGEMENT_SERVICE.NOTIFICATION_TEMPLATE (ID,CREATED_BY
                     <tr>
                       <td
                         style="
-                          pad')||TO_CLOB('ding: 25px 24px 24px 32px;
+                          pad'
+    ) || TO_CLOB(
+      'ding: 25px 24px 24px 32px;
                           background-color: #fafafa;
                           border-bottom: 1px solid #e0e0e0;
                           width: 10px;
@@ -354,7 +389,9 @@ INSERT INTO NOTIFICATION_MANAGEMENT_SERVICE.NOTIFICATION_TEMPLATE (ID,CREATED_BY
                       <td
                         style="
                           padding: 25px 24px 24px 32px;
-                   ')||TO_CLOB('       background-color: #fafafa;
+                   '
+    ) || TO_CLOB(
+      '       background-color: #fafafa;
                           border-bottom: 1px solid #e0e0e0;
                           width: 10px;
                           font-size: 14px;
@@ -405,7 +442,9 @@ INSERT INTO NOTIFICATION_MANAGEMENT_SERVICE.NOTIFICATION_TEMPLATE (ID,CREATED_BY
                     <tr>
                       <td
                         style="
-                          padding: 25px')||TO_CLOB(' 24px 24px 32px;
+                          padding: 25px'
+    ) || TO_CLOB(
+      ' 24px 24px 32px;
                           background-color: #fafafa;
                           border-bottom: 1px solid #e0e0e0;
                           width: 10px;
@@ -456,7 +495,9 @@ INSERT INTO NOTIFICATION_MANAGEMENT_SERVICE.NOTIFICATION_TEMPLATE (ID,CREATED_BY
                           padding: 25px 24px 24px 32px;
                           background-color: #fafafa;
                           width: 10px;
-                          font-siz')||TO_CLOB('e: 14px;
+                          font-siz'
+    ) || TO_CLOB(
+      'e: 14px;
                         "
                       >
                         Terminal
@@ -520,7 +561,9 @@ INSERT INTO NOTIFICATION_MANAGEMENT_SERVICE.NOTIFICATION_TEMPLATE (ID,CREATED_BY
                 >
                   ${fromAccountNumber}
                 </p>
-       ')||TO_CLOB('       </td>
+       '
+    ) || TO_CLOB(
+      '       </td>
             </tr>
             <tr>
               <td style="padding: 0px 32px; background-color: #ffffff">
@@ -575,7 +618,9 @@ INSERT INTO NOTIFICATION_MANAGEMENT_SERVICE.NOTIFICATION_TEMPLATE (ID,CREATED_BY
                         <p style="text-align: center">
                           <a href="https://bankbsi.id/facebook_bsi">
                             <img
-                              src="https://storage.googleapis.')||TO_CLOB('com/bsisuperapp2.bankbsi.co.id/assets/email/icon-facebook.png"
+                              src="https://storage.googleapis.'
+    ) || TO_CLOB(
+      'com/bsisuperapp2.bankbsi.co.id/assets/email/icon-facebook.png"
                               style="width: 30px"
                             />
                           </a>
@@ -614,7 +659,9 @@ INSERT INTO NOTIFICATION_MANAGEMENT_SERVICE.NOTIFICATION_TEMPLATE (ID,CREATED_BY
                       </td>
                     </tr>
                     <tr>
-                ')||TO_CLOB('      <td
+                '
+    ) || TO_CLOB(
+      '      <td
                         style="
                           padding: 4px 0 24px;
                           font-family: sans-serif;
@@ -642,4 +689,11 @@ INSERT INTO NOTIFICATION_MANAGEMENT_SERVICE.NOTIFICATION_TEMPLATE (ID,CREATED_BY
     <p>&nbsp;<br /></p>
   </body>
 </html>
-'),NULL,NULL,NULL,NULL,NULL);
+'
+    ),
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    NULL
+  );
