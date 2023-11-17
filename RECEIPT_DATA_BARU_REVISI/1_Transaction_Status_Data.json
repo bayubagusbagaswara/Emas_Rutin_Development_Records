@@ -1,30 +1,30 @@
 {
   "transactionStatusData": [
     {
-      "value": "<font color=\"#F4000000\" size=\"16\" type=\"autosize\" weight=\"bold\">${sumberPembelian}</font>",
+      "value": "<font color=\"#F4000000\" size=\"16\" weight=\"bold\">${sumberPembelian}</font>",
       "key": "Sumber Pembelian",
       "type": "data",
       "background": "#00FFFFFF"
     },
     { "value": "", "key": "", "type": "line" },
     {
-      "value": "<font color=\"#F4000000\" size=\"14\" type=\"autosize\" weight=\"normal\">${pembelianBerdasarkan}</font>",
-      "key": "Pembelian Berdasarkan",
+      "value": "<font color=\"#F4000000\" size=\"14\" weight=\"normal\">${pembelianBerdasarkan}</font>",
+      "key": "Pembelian\nBerdasarkan",
       "type": "data",
       "background": "#00FFFFFF"
     },
     { "value": "", "key": "", "type": "line" },
     {
-      "value": "<font color=\"#F4000000\" size=\"14\" type=\"autosize\" weight=\"normal\">${fromAccountAlias}</font><br><font color=\"#9E000000\" size=\"14\" type=\"autosize\" weight=\"normal\">${fromAccountNumber}</font>",
-      "key": "Rekening E-mas",
+      "value": "<font color=\"#F4000000\" size=\"14\" weight=\"normal\">${fromAccountAlias}</font><br><font color=\"#9E000000\" size=\"14\" weight=\"normal\">${fromAccountNumber}</font>",
+      "key": "Rekening\nE-mas",
       "type": "data",
       "background": "#00FFFFFF"
     },
     {
       "detailTransaksi": [
         {
-          "value": "<font color=\"#F4000000\" size=\"14\" type=\"autosize\" weight=\"normal\"> ${fromAccountAliasBgh}</font><br><font color=\"#9E000000\" size=\"14\" type=\"autosize\" weight=\"normal\">${fromAccountNumberBgh}</font>",
-          "key": "Rekening Sumber",
+          "value": "<font color=\"#F4000000\" size=\"14\" weight=\"normal\"> ${fromAccountAliasBgh}</font><br><font color=\"#9E000000\" size=\"14\" weight=\"normal\">${fromAccountNumberBgh}</font>",
+          "key": "Rekening\nSumber",
           "type": "data",
           "background": "#00FFFFFF"
         }
@@ -33,29 +33,29 @@
   ],
   "receiptData": [
     {
-      "value": "<font color=\"#F4000000\" size=\"16\" type=\"autosize\" weight=\"bold\">${sumberPembelian}</font>",
+      "value": "<font color=\"#F4000000\" size=\"16\" weight=\"bold\">${sumberPembelian}</font>",
       "key": "Sumber Pembelian",
       "type": "data",
       "background": "#00FFFFFF"
     },
     { "value": "", "key": "", "type": "line" },
     {
-      "value": "<font color=\"#F4000000\" size=\"14\" type=\"autosize\" weight=\"normal\">${pembelianBerdasarkan}</font>",
-      "key": "Pembelian Berdasarkan",
+      "value": "<font color=\"#F4000000\" size=\"14\" weight=\"normal\">${pembelianBerdasarkan}</font>",
+      "key": "Pembelian\nBerdasarkan",
       "type": "data",
       "background": "#00FFFFFF"
     },
     { "value": "", "key": "", "type": "line" },
     {
-      "value": "<font color=\"#F4000000\" size=\"14\" type=\"autosize\" weight=\"normal\">${fromAccountAlias}</font><br><font color=\"#9E000000\" size=\"14\" type=\"autosize\" weight=\"normal\">${fromAccountNumber}</font>",
-      "key": "Rekening E-mas",
+      "value": "<font color=\"#F4000000\" size=\"14\"  weight=\"normal\">${fromAccountAlias}</font><br><font color=\"#9E000000\" size=\"14\" weight=\"normal\">${fromAccountNumber}</font>",
+      "key": "Rekening\nE-mas",
       "type": "data",
       "background": "#00FFFFFF"
     },
     { "value": "", "key": "", "type": "line" },
     {
-      "value": "<font color=\"#F4000000\" size=\"14\" type=\"autosize\" weight=\"normal\"> ${fromAccountAliasBgh}</font><br><font color=\"#9E000000\" size=\"14\" type=\"autosize\" weight=\"normal\">${fromAccountNumberBgh}</font>",
-      "key": "Rekening Sumber",
+      "value": "<font color=\"#F4000000\" size=\"14\" weight=\"normal\"> ${fromAccountAliasBgh}</font><br><font color=\"#9E000000\" size=\"14\" weight=\"normal\">${fromAccountNumberBgh}</font>",
+      "key": "Rekening\nSumber",
       "type": "data",
       "background": "#00FFFFFF"
     }
